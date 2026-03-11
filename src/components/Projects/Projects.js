@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import sentimentImg from "../../Assets/Projects/sentiment.png"; 
-import foodRecImg from "../../Assets/Projects/foodrec.png";     
-import breastCancerImg from "../../Assets/Projects/breastcancer.png";
-import spotifyDashboardImg from "../../Assets/Projects/spotify.png"; 
-import NHSDashboardImg from "../../Assets/Projects/dashboard.png"; 
+import ragImg from "../../Assets/Projects/sentiment.png";
+import chatbotImg from "../../Assets/Projects/dashboard.png";
 
 function Projects() {
   return (
@@ -23,51 +20,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sentimentImg}
+              imgPath={ragImg}
               isBlog={false}
-              title="Sentiment Analysis using NLP and LLMs"
-              description="Built a BERT-based sentiment analysis model with 92% accuracy, deployed on AWS and Azure via Streamlit."
-              ghLink="https://github.com/dsnasn/sentiment-analysis"
+              title="YouTube Question Answering System (RAG-based)"
+              description="Built a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about YouTube videos. The system extracts transcripts, chunks the text, stores embeddings in a vector database, and uses a large language model to generate contextual answers based on retrieved content."
+              ghLink="https://github.com/Ahtesham15"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={foodRecImg}
+              imgPath={chatbotImg}
               isBlog={false}
-              title="Intelligent Food Recommendation System"
-              description="Designed a recommendation system boosting user retention to 75% and optimized search accuracy."
-              ghLink="https://github.com/dsnasn/recommendation_system"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={breastCancerImg}
-              isBlog={false}
-              title="Breast Cancer Histopathology Diagnosis"
-              description="Developed a multi-class classification model with DenseNet121, achieving 95% accuracy for diagnosis."
-              ghLink="https://github.com/dsnasn/breast-cancer-multi-classification"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={spotifyDashboardImg}
-              isBlog={false}
-              title="Spotify Music Trends Analysis with Tableau"
-              description="Created an interactive Tableau dashboard analyzing Spotify music trends and user preferences."
-              ghLink="https://github.com/dsnasn/Spotify-Trends-Dashboard"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={NHSDashboardImg}
-              isBlog={false}
-              title="NHS Scotland Healthcare Analysis with Power BI"
-              description="Built an interactive Power BI dashboard to analyze NHS Scotland’s healthcare trends, resource allocation, and patient wait times."
-              ghLink="https://github.com/dsnasn/PowerBI-NHS-Dashboard"
+              title="AI Chatbot with Long-Term Memory"
+              description="Developed an AI-powered chatbot using LangChain and LangGraph with a Streamlit frontend for interactive conversations. Implemented long-term memory using PostgreSQL to persist conversation history and used threading-based persistence to maintain session context. Integrated LangSmith for observability, enabling monitoring, debugging, and tracing of the agent workflow."
+              ghLink="https://github.com/Ahtesham15/langgraph-chatbot"
             />
           </Col>
 

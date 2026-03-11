@@ -1,57 +1,43 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiPython, DiJava, DiMysql } from "react-icons/di"; 
-import { 
-  SiPytorch, 
-  SiTensorflow, 
-  SiMicrosoftazure, 
-  SiTableau, 
-  SiPlotly, 
-  SiGit, 
-  SiKeras, 
-  SiAmazonaws, 
-  SiGooglecloud, 
-  SiJupyter 
+import {
+  SiPostgresql,
+  SiOpenai,
+  SiFastapi,
+  SiStreamlit,
+  SiDocker,
+  SiGit,
+  SiJupyter,
+  SiPython,
 } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <SiOpenai />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiFastapi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <SiStreamlit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftazure />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPlotly />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiKeras />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGooglecloud />
+        <AiFillGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />

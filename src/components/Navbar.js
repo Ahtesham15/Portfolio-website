@@ -37,7 +37,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <strong className="purple" style={{ fontSize: "1.5em" }}>
-            JM.
+            AP.
           </strong>
         </Navbar.Brand>
         <Navbar.Toggle

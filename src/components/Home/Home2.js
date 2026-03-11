@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/my-avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub
@@ -17,26 +17,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I enjoy solving real-world problems through <b className="purple">data-driven insights </b> 
-              and creating innovative solutions with technology.
+              I enjoy solving real-world problems through{" "}
+              <b className="purple">intelligent AI systems </b>
+              and building scalable, data-driven applications.
               <br />
-              <br />I am proficient in languages like
+              <br />
+              I am proficient in languages like
               <i>
-                <b className="purple"> Python, SQL, and JavaScript. </b>
+                <b className="purple"> Python and SQL. </b>
               </i>
               <br />
               <br />
-              My field of interest include working on &nbsp;
+              My field of interest includes working on &nbsp;
               <i>
-                <b className="purple">Natural Language Processing (NLP) </b>, building
-                <b className="purple"> Recommendation Systems</b>, and creating insightful <b className="purple">Data Visualizations.</b>
+                <b className="purple">Large Language Models (LLMs) </b>, building
+                <b className="purple"> Retrieval-Augmented Generation (RAG) systems</b>, and designing
+                <b className="purple"> Agentic AI Workflows.</b>
               </i>
               <br />
               <br />
-              I love applying my skills to develop impactful solutions using{" "}
-              <b className="purple">Machine Learning models</b> and frameworks like
+              I love building impactful solutions using{" "}
+              <b className="purple">LangChain and LangGraph</b> and frameworks like
               <i>
-                <b className="purple"> TensorFlow, PyTorch, and Streamlit.</b>
+                <b className="purple"> FastAPI, Streamlit, and PostgreSQL.</b>
               </i>
             </p>
           </Col>
@@ -55,7 +58,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/dsnasn"
+                  href="https://github.com/Ahtesham15"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -65,7 +68,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/jiahui821/"
+                  href="https://www.linkedin.com/in/ahtesham-pathan"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
