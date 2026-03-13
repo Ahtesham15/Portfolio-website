@@ -2,10 +2,34 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import logo0 from "../../Assets/Experience/UOL.jpg";
 import logoKLE from "../../Assets/Experience/KLE.jpg";
+import logoLFC from "../../Assets/Experience/LFC.jpg";
+import logoArgos from "../../Assets/Experience/argos.jpg";
 import logoCodilar from "../../Assets/Experience/codilar.jpg";
 import logoACC from "../../Assets/Experience/ACC.jpg";
 
 const timelineData = [
+  {
+    id: 4,
+    type: "parttime",
+    date: "Oct 2024 – Dec 2025",
+    title: "Host",
+    organization: "Liverpool Football Club",
+    location: "Liverpool, United Kingdom",
+    description:
+      "Delivered premium hospitality to guests at Anfield, managing event spaces and ensuring exceptional matchday experiences for a diverse international audience in a fast-paced, high-profile environment.",
+    logo: logoLFC,
+  },
+  {
+    id: 7,
+    type: "parttime",
+    date: "Oct 2024 – Nov 2025",
+    title: "Warehouse Team Manager",
+    organization: "Sainsbury's Argos",
+    location: "Liverpool, United Kingdom",
+    description:
+      "Led a warehouse team to ensure efficient stock management, order fulfilment, and dispatch operations. Coordinated shift planning, monitored KPIs, and maintained health & safety compliance in a high-volume retail environment.",
+    logo: logoArgos,
+  },
   {
     id: 1,
     type: "education",
@@ -36,16 +60,6 @@ const timelineData = [
     description:
       "Analysed production data using SPC methods to optimise manufacturing efficiency, presented process improvement reports to cross-functional teams, and collaborated with senior engineers at India's leading cement and concrete brand.",
     logo: logoACC,
-  },
-  {
-    id: 4,
-    type: "parttime",
-    date: "Oct 2024 – Dec 2025",
-    title: "Host",
-    organization: "Liverpool Football Club",
-    location: "Liverpool, United Kingdom",
-    description:
-      "Delivered premium hospitality to guests at Anfield, managing event spaces and ensuring exceptional matchday experiences for a diverse international audience in a fast-paced, high-profile environment.",
   },
   {
     id: 6,
