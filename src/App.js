@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import Certifications from "./components/Certifications/Certifications";
+import Contact from "./components/Contact/Contact";
 import {
   BrowserRouter as Router,
   Route,
@@ -40,6 +41,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>
